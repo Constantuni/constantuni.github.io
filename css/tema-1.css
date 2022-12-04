@@ -1,0 +1,43 @@
+body {
+	background-color:pink
+}
+footer {
+	font-family:arial;
+	color:grey
+}
+nav a {
+	font-family:arial black;
+	color:white
+}
+nav {
+	color:green
+}
+nav a:link {
+	color:gold
+}
+nav a:visited {
+	color:green
+}
+nav a:active {
+	color:beige
+}
+nav a:hover {
+	color:violet
+}
+nav a:focus {
+	color:brown
+}
+aside a {
+	color:red;
+	font-family:arial
+}
+aside {
+	color:red;
+	font-family:arial
+}
+artical p,h2 {
+	color:blue
+}
+hgroup {
+	color:purple
+}
