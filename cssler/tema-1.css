@@ -1,43 +1,37 @@
 body {
-	background-color:pink
+	background-color: pink;
 }
 footer {
-	font-family:arial;
-	color:grey
+	font-family: arial;
+	color: grey;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	
 }
 nav a {
+	display: flex;
 	font-family:arial black;
-	color:white
-}
-nav {
-	color:green
+	color: white;
 }
 nav a:link {
-	color:gold
+	color: gold;
 }
 nav a:visited {
-	color:green
+	color: green;
 }
 nav a:active {
-	color:beige
+	color: beige;
 }
 nav a:hover {
-	color:violet
+	color: violet;
 }
 nav a:focus {
-	color:brown
-}
-aside a {
-	color:red;
-	font-family:arial
-}
-aside {
-	color:red;
-	font-family:arial
+	color: brown;
 }
 artical p,h2 {
-	color:blue
+	color: blue;
 }
 hgroup {
-	color:purple
+	color: purple;
 }
