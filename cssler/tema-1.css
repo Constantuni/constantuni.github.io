@@ -1,5 +1,16 @@
 body {
+	height: 100%;
+	width: 100%;
 	background-color: pink;
+	background-image: url('kabuki.webp');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div {
+	padding: 16px;
+	position: relative;
+	display: block;
 }
 footer {
 	font-family: arial;
@@ -7,31 +18,71 @@ footer {
 	position: fixed;
 	left: 0;
 	bottom: 0;
+}
+ul.melinks {
+	width: 32px;
+	margin-top: 100px;
+	padding-top: 100;
+	padding-left: 0px;
+	background-color: black;
+	text-align: left;
+}
+ul.melinks > li {
+	display: inline-block;
+	padding: 5px 5px;
+}
+ul.melinks > li:hover {
+	background-color: black;
+}
+ul.melinks > li > a {
+	color: white;
+	text-decoration: none;
+}
+img.me {
+	border: 5px solid #555;
+}
+ul.nav {
+	height: 64px;
+	padding-bottom: 10px;
+	width: 100%;
+	position:fixed;
+	top: 3px;
+	background-color: black;
+}
+ul.nav > li {
+
+	margin: 5px;
+	display: inline-block;
+	padding: 21px;
+}
+ul.nav > li:hover {
+	background-color: white;
+}
+ul.nav > li > a {
+	left: 100px;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
 	
 }
-nav a {
-	display: flex;
-	font-family:arial black;
-	color: white;
+header {
+	color: black;
+	margin-top: 75px;
+	left: 32px;
+	top: 0px;
+	position:absolute;
 }
-nav a:link {
-	color: gold;
+div.logo {
+	top: 0px;
+	padding-left: 32px;
+	width: 192px;
+	height: 64px;
+	position: relative;
+	z-index: 1000;
 }
-nav a:visited {
-	color: green;
-}
-nav a:active {
-	color: beige;
-}
-nav a:hover {
-	color: violet;
-}
-nav a:focus {
-	color: brown;
-}
-artical p,h2 {
-	color: blue;
-}
-hgroup {
-	color: purple;
-}
+/*upside down*/
+/*body{
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}*/
